@@ -36,6 +36,10 @@ body {
   font-weight: 700;
 }
 
+#date-time{
+  font-size: 35px;
+}
+
 main {
   margin-top: 5rem;
 }
@@ -62,6 +66,7 @@ main {
 .company_switch .active {
   background-color: #007bff;
   color: white;
+  border: none;
 }
 
 .company {
