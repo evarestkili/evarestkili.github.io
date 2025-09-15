@@ -54,6 +54,7 @@ main {
   border: 1px solid #ccc;
   transition: 0.3s;
   color: #333;
+  border-radius: 50px;
 }
 
 
@@ -171,7 +172,7 @@ main {
 .main_important_card
  .card-actions {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   gap: 10px;
 }
