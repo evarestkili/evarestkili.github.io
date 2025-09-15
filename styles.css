@@ -164,23 +164,26 @@ main {
   margin-bottom: 0.5rem;
 }
 
+.main_important_card a {
+  text-decoration: none;
+}
+
 .main_important_card
  .card-actions {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   gap: 10px;
 }
 
 .main_important_card .card-actions button {
   padding: 0.4rem 0.8rem;
   border: none;
+  background-color: transparent;
   border-radius: 5px;
-  background: #007bff;
-  color: white;
   font-size: 0.85rem;
   cursor: pointer;
   transition: background 0.3s;
 }
 
-.main_important_card .card-actions button:hover {
-  background: #0056b3;
-}
+
